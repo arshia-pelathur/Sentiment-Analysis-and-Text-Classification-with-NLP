@@ -49,6 +49,8 @@ In this project, I performed sentiment analysis on a given dataset using multipl
 
 The models used for the classification include Support Vector Classifier (SVC) and Naive Bayes with different feature extraction techniques such as Count Vectorizer, TF-IDF, OneHot Encoding, and Word2Vec. The effectiveness of each model was evaluated using metrics like accuracy, precision, recall, and F1-score, and the results were summarized for easy comparison. The OneHot Encoded SVC model with unigram and bigram features showed the best performance overall. The comparison of all six models is visualized in the performance comparison plot included above.
 
+The SVC models with TF-IDF, Count Vectorizer, and OneHot Encoded features performed the best, achieving around 80% accuracy, while Word2Vec models had lower performance. The Naive Bayes model performed significantly worse. The OneHot Encoded (Unigram Bigram) SVC gave the highest overall weighted F1-score (79.36%).
+
 ## Usage
 To explore the project, you can run the notebooks:
 - Start with `code.ipynb` to see data preprocessing steps.
