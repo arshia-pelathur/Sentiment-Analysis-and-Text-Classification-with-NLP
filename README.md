@@ -42,7 +42,7 @@ Each model was evaluated on accuracy, precision, recall, and F1-score, with resu
 ## Performance Comparison
 The following plot summarizes the performance metrics of different models used in this project:
 
-![Model Performance Comparison](model_performance_comparison.png)
+![Model Performance Comparison](Model_Performance.png)
 
 ## Summary of the Project
 In this project, I performed sentiment analysis on a given dataset using multiple natural language processing (NLP) techniques and machine learning models to classify text into positive, negative, or neutral categories. The data was preprocessed with the help of dictionaries for abbreviation expansion and emoticon handling to enhance accuracy. 
