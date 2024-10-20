@@ -112,10 +112,10 @@ nltk==3.9.1
 numexpr==2.8.7
 numpy==2.1.1
 # numpy-base==1.26.4
-openjpeg==2.5.2
-openssl==3.3.2
-orc==2.0.1
-packaging==24.1
+# openjpeg==2.5.2
+# openssl==3.3.2
+# orc==2.0.1
+# packaging==24.1
 pandas==2.2.2
 # parso==0.8.4
 # pcre2==10.42
