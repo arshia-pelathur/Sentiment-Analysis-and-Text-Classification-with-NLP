@@ -159,7 +159,7 @@ seaborn==0.13.2
 # smart_open==5.2.1
 # smmap==4.0.0
 # snappy==1.2.1
-sqlite==3.45.3
+# sqlite==3.45.3
 # stack_data==0.6.2
 streamlit==1.38.0
 # tbb==2021.8.0
