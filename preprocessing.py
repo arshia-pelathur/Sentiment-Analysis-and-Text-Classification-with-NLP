@@ -1,11 +1,19 @@
 import re
 import nltk
 from nltk.corpus import stopwords 
-nltk.download('wordnet')
+# nltk.download('wordnet')
 import string
 import json
 import numpy as np
 from nltk.stem import WordNetLemmatizer
+
+# Ensure that stopwords are downloaded
+try:
+    stop_words = set(stopwords.words('english'))
+except LookupError:
+    nltk.download('stopwords')
+    stop_words = set(stopwords.words('english'))
+
 
 
 def removal_html(record):
