@@ -2,8 +2,8 @@
 # $ conda create --name <env> --file <this file>
 # platform: win-64
 altair==5.0.1
-arrow-cpp==16.1.0
-asttokens==2.4.1
+# arrow-cpp==16.1.0
+# asttokens==2.4.1
 attrs==24.2.0
 aws-c-auth==0.6.19
 aws-c-cal==0.5.20
